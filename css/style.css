@@ -389,6 +389,8 @@ footer div{
     }
     footer div{
         flex-direction: column;
+        align-items: flex-start;
+        padding-bottom: 10px;
     }
     footer a:not(:last-child){
         margin-right: 0;
