@@ -94,7 +94,7 @@ section{
     flex-wrap: wrap;
 }
 .formacion div:first-child{
-    background-color: #9b94a291;
+    background-color: #9b94a2c7;
     border: 1px solid white;
     border-radius: 10px;
     box-shadow: 0 0 10px 5px black;
@@ -274,7 +274,7 @@ footer div{
     .trayectoria div{
         font-size: 0.8em;
         width: 85%;
-        background-color: #9b94a291;
+        background-color: #9b94a2c7;
         border-radius: 10px;
         color: white;
         padding: 14px;
@@ -324,7 +324,7 @@ footer div{
         justify-content: center;
     }
     .bio div{
-        background-color: #9b94a291;
+        background-color: #9b94a2c7;
         border: 1px solid white;
         border-radius: 10px;
         box-shadow: 0 0 10px 5px black;
@@ -370,20 +370,6 @@ footer div{
     footer img{
         height: 6vh;
     }
-    
-    
-}
-
-@media screen and (max-width: 500px){
-    header ul{
-        font-size: 0.7em;
-    }
-    nav ul{
-        flex-wrap: wrap;
-    }
-    .bio div{
-        font-size: 0.77em;
-    }
     footer{
         padding: 10px 6px;
     }
@@ -399,6 +385,20 @@ footer div{
         margin: 0;
         margin-bottom: 10px;
     }
+    
+}
+
+@media screen and (max-width: 500px){
+    header ul{
+        font-size: 0.7em;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    .bio div{
+        font-size: 0.77em;
+    }
+    
 }
 
 @media screen and (max-width: 400px){
