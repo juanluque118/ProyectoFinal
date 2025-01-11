@@ -407,4 +407,7 @@ footer div{
     .bio div{
         font-size: 0.67em;
     }
+    .galeria{
+        justify-content: flex-start;
+    }
 }
