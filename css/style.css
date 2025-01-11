@@ -357,7 +357,7 @@ footer div{
     .fotos{
         grid-template-columns: repeat(2,auto);
         gap: 8px;
-        max-width: 270px;
+        max-width: 250px;
     }
     .galeria h2{
         font-size: 1em;
