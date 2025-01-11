@@ -412,4 +412,7 @@ footer div{
     .galeria{
         justify-content: flex-start;
     }
+    footer img{
+        height: 5.8vh;
+    }
 }
