@@ -44,7 +44,7 @@ header h1{
     text-shadow: 0 0 20px white;
 }
 header nav{
-    width: 65%;
+    width: 62%;
 }
 nav a:hover{
     color: #d7b292;
@@ -395,7 +395,13 @@ footer div{
     }
 }
 @media screen and (max-width: 400px){
-	
+	header span{
+        margin-left: 23px;
+        font-size: 0.8em;
+    }
+    header h1{
+        line-height: 22px;
+    }
     .formacion div:first-child{
         font-size: 0.7em;
     }
