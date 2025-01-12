@@ -398,7 +398,9 @@ footer div{
     .bio div{
         font-size: 0.77em;
     }
-    
+    footer h2{
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 400px){
