@@ -242,6 +242,7 @@ footer div{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 100%;
 }
 
 /*Media Query*/
@@ -373,24 +374,14 @@ footer div{
     footer{
         padding: 10px 6px;
     }
-    footer div{
-        flex-direction: column;
-        align-items: flex-start;
-        padding-bottom: 10px;
-    }
-    footer a:not(:last-child){
-        margin-right: 0;
-    }
-    footer h2{
-        margin: 0;
-    }
+    
     
 }
 
 @media screen and (max-width: 500px){
     header ul,
     footer div{
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     nav ul{
         flex-wrap: wrap;
@@ -399,7 +390,16 @@ footer div{
         font-size: 0.77em;
     }
     footer h2{
-        margin-bottom: 10px;
+        display: none;
+    }
+    footer div{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.2em;
+        justify-content: space-around;
+    }
+    footer a:not(:last-child){
+        margin-right: 0;
     }
 }
 
@@ -417,4 +417,8 @@ footer div{
     footer img{
         height: 5.8vh;
     }
+    footer div{
+        font-size: 1em;
+    }
+    
 }
