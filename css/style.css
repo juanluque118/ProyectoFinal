@@ -291,7 +291,6 @@ footer div{
         background-position-y: -30px;
     }
 }
-
 @media screen and (max-width: 750px){
 	footer,
     header ul{
@@ -300,7 +299,6 @@ footer div{
     header h1{
         font-size: 1.3em;
     }
-    
     .bio div{
         font-size: 0.63em;
         width: 35%;
@@ -318,7 +316,6 @@ footer div{
         height: 7vh;
     }
 }
-
 @media screen and (max-width: 600px){
 	.bio{
         align-items: flex-end;
@@ -345,12 +342,11 @@ footer div{
         display: grid;
         grid-template-columns: repeat(2,auto);
         grid-template-rows: repeat(2,auto);
-        gap: 30px;
+        gap: 15px;
     }
     nav li:nth-child(2){
         text-align: end;
     }
-    
     nav li:nth-child(4){
         text-align: end;
         margin-right: 7px;
@@ -366,18 +362,14 @@ footer div{
     }
     .galeria{
         background-position-y: center;
-    }
-    
+    } 
     footer img{
         height: 6vh;
     }
     footer{
         padding: 10px 6px;
     }
-    
-    
 }
-
 @media screen and (max-width: 500px){
     header ul,
     footer div{
@@ -402,7 +394,6 @@ footer div{
         margin-right: 0;
     }
 }
-
 @media screen and (max-width: 400px){
 	
     .formacion div:first-child{
@@ -420,5 +411,4 @@ footer div{
     footer div{
         font-size: 1em;
     }
-    
 }
