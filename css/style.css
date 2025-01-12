@@ -164,7 +164,7 @@ section{
     display: grid;
     grid-template-columns: repeat(4,auto);
     gap: 10px;
-    width: 75%;
+    width: 50%;
     max-height: 60vh;
 }
 .fotos img{
@@ -388,7 +388,8 @@ footer div{
 }
 
 @media screen and (max-width: 500px){
-    header ul{
+    header ul,
+    footer div{
         font-size: 0.7em;
     }
     nav ul{
