@@ -164,7 +164,7 @@ section{
     display: grid;
     grid-template-columns: repeat(4,auto);
     gap: 10px;
-    width: 50%;
+    width: 75%;
     max-height: 60vh;
 }
 .fotos img{
