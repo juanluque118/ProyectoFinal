@@ -86,6 +86,7 @@ section{
 .formacion{
     background-image: url("../img/4.jpg");
     background-position-y: -190px;
+    align-items: flex-start;
 }
 .formacion div:first-child{
     background-color: #9b94a2c7;
@@ -93,7 +94,7 @@ section{
     border-radius: 10px;
     box-shadow: 0 0 10px 5px black;
     color: rgb(255, 255, 255);
-    margin: 0 25px;
+    margin: 25px;
     padding: 14px;
 }
 .formacion h2{
@@ -250,11 +251,6 @@ footer div{
     .formacion{
         background-position-y: 0;
         background-position-x: center;
-        align-items: flex-start;
-    }
-    .formacion div:first-child{
-        margin-top: 30px;
-        margin-bottom: 20px;
     }
     .trayectoria{
         flex-direction: column;
