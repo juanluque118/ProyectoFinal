@@ -270,6 +270,7 @@ footer div{
     .trayectoria video{
         width: 60%;
         position: static;
+        margin-bottom: 10px;
     }
     .galeria{
         background-position-y: -30px;
