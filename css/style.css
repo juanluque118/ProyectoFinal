@@ -9,7 +9,7 @@ body{
     min-width: 320px;
 }
 
-/*Navegacion*/
+/* Header y Navegacion */
 
 header{
     height: 10vh;
@@ -20,11 +20,17 @@ header{
     font-weight: 400;
     font-style: normal;
     font-size: 1.2em;
-    width: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box; /* Incluyo el padding y border en el alto y ancho total */
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+header h1{
+    color: black;
+    text-shadow: 0 0 20px white;
+}
+header a{
+    text-decoration: none;
 }
 nav ul{
     display: flex;
@@ -36,13 +42,6 @@ nav ul{
 li a{
     color: #B08968;
 }
-header a{
-   text-decoration: none;
-}
-header h1{
-    color: black;
-    text-shadow: 0 0 20px white;
-}
 header nav{
     width: 62%;
 }
@@ -52,9 +51,6 @@ nav a:hover{
 }
 header h1:hover{
     text-shadow: 0 0 10px rgb(255, 255, 255);
-}
-footer a:hover{
-    text-shadow: 0 0 30px rgb(255, 255, 255);
 }
 nav li:not(:last-child){
     margin-right: 7px;
@@ -68,7 +64,6 @@ section{
     justify-content: center;
     align-items: center;
     background-size: cover;
-    position: relative;
     overflow: auto; /*Las barras de desplazamiento solo aparecerán cuando sean necesarias*/
 }
 .inicio{
@@ -83,7 +78,7 @@ section{
 .bio div{
     width: 38%;
     margin: 20px;
-    font-size: 0.86em;
+    font-size: 0.83em;
 }
 .bio h2{
     margin-bottom: 10px;
@@ -91,7 +86,6 @@ section{
 .formacion{
     background-image: url("../img/4.jpg");
     background-position-y: -190px;
-    flex-wrap: wrap;
 }
 .formacion div:first-child{
     background-color: #9b94a2c7;
@@ -122,10 +116,10 @@ section{
     background-position-y: -100px;
     justify-content: flex-start;
     align-items: flex-start;
+    position: relative;
 }
 .trayectoria div{
     width: 27%;
-    color: black;
     margin: 20px 0 0 20px;
     padding: 14px;
     font-size: 0.82em;
@@ -143,7 +137,7 @@ section{
     border: 2px solid black;
     border-radius: 10px;
     position: absolute;
-    top: 60px;
+    top: 15px;
     right: 50px;
 }
 .galeria{
@@ -158,7 +152,7 @@ section{
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 20px;
-    box-shadow: 0 0 2px 2px #7F5539;
+    box-shadow: 0 0 2px 2px rgb(0 0 0 / 51%);
 }
 .fotos{
     display: grid;
@@ -166,9 +160,6 @@ section{
     gap: 10px;
     width: 75%;
     max-height: 60vh;
-}
-.fotos img{
-    width: 100%;
 }
 .fotos a,
 .fotos img{
@@ -179,7 +170,6 @@ section{
 }
 .modal{
     position: fixed;
-    z-index: 2;
     width: 100%;
     height: 100vh;
     top: 0;
@@ -196,7 +186,6 @@ section{
     max-height: 90vh;
     max-width: 70vw;
 }
-
 .modal button{
     border: none;
     background-color: transparent;
@@ -205,13 +194,11 @@ section{
     margin: 0 10px;
 }
 
-/*Pie de pagina*/
+/* Pie de pagina */
 
 footer{
-    width: 100%;
     height: 10vh;
     padding: 10px 20px;
-    text-align: center;
     background-color: #000000;
     color: #d7b292;
     display: flex;
@@ -222,15 +209,17 @@ footer{
     font-weight: 900;
 }
 footer img{
-   height: 8vh;
+    height: 8vh;
 }
 footer a{
-    
     text-decoration: none;
     color: #d7b292;
 }
 footer a:not(:last-child){
     margin-right: 15px;
+}
+footer a:hover{
+    text-shadow: 0 0 30px white;
 }
 footer h2{
     margin-right: 25px;
@@ -240,7 +229,6 @@ footer i{
 }
 footer div{
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 100%;
 }
@@ -255,21 +243,17 @@ footer div{
         background-position-y: 0;
         background-position-x: center;
     }
+    .bio div{
+        font-size: 0.72em;
+    }
     .formacion{
         background-position-y: 0;
         background-position-x: center;
     }
-    
-    .bio div{
-        font-size: 0.74em;
-    }
     .trayectoria{
         flex-direction: column;
-        justify-content: flex-start;
         align-items: center;
         background-position-x: center;
-        padding: 15px 0;
-        box-sizing: border-box;
         background-position-y: 0;
     }
     .trayectoria div{
@@ -278,8 +262,6 @@ footer div{
         background-color: #9b94a2c7;
         border-radius: 10px;
         color: white;
-        padding: 14px;
-        height: auto;
         margin-left: 0;
         margin-bottom: 30px;
     }
@@ -295,9 +277,6 @@ footer div{
 	footer,
     header ul{
         font-size: 0.9em;
-    }
-    header h1{
-        font-size: 1.3em;
     }
     .bio div{
         font-size: 0.63em;
@@ -317,7 +296,21 @@ footer div{
     }
 }
 @media screen and (max-width: 600px){
-	.bio{
+	footer,
+    header ul{
+        font-size: 0.8em;
+    }
+    header ul{
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: repeat(2,auto);
+        gap: 15px;
+    }
+    nav li:nth-child(even){
+        text-align: end;
+        margin-right: 7px;
+    }
+    .bio{
         align-items: flex-end;
         justify-content: center;
     }
@@ -334,23 +327,9 @@ footer div{
     .formacion div:first-child{
         font-size: 0.8em;
     }
-    footer,
-    header ul{
-        font-size: 0.8em;
-    }
-    header ul{
-        display: grid;
-        grid-template-columns: repeat(2,auto);
-        grid-template-rows: repeat(2,auto);
-        gap: 15px;
-    }
-    nav li:nth-child(2){
-        text-align: end;
-    }
-    nav li:nth-child(4){
-        text-align: end;
-        margin-right: 7px;
-    }
+    .galeria{
+        background-position-y: center;
+    } 
     .fotos{
         grid-template-columns: repeat(2,auto);
         gap: 8px;
@@ -360,9 +339,6 @@ footer div{
         font-size: 1em;
         margin-top: 10px;
     }
-    .galeria{
-        background-position-y: center;
-    } 
     footer img{
         height: 6vh;
     }
@@ -371,13 +347,6 @@ footer div{
     }
 }
 @media screen and (max-width: 500px){
-    header ul,
-    footer div{
-        font-size: 0.8em;
-    }
-    nav ul{
-        flex-wrap: wrap;
-    }
     .bio div{
         font-size: 0.77em;
     }
@@ -402,11 +371,11 @@ footer div{
     header h1{
         line-height: 22px;
     }
-    .formacion div:first-child{
-        font-size: 0.7em;
-    }
     .bio div{
         font-size: 0.67em;
+    }
+    .formacion div:first-child{
+        font-size: 0.7em;
     }
     .galeria{
         justify-content: flex-start;
