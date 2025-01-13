@@ -249,6 +249,10 @@ footer div{
     .formacion{
         background-position-y: 0;
         background-position-x: center;
+        align-items: flex-start;
+    }
+    .formacion div:first-child{
+        margin-top: 30px;
     }
     .trayectoria{
         flex-direction: column;
