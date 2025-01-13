@@ -151,6 +151,7 @@ section{
     color: #d7b292;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 0 2px 2px rgb(0 0 0 / 51%);
 }
@@ -253,6 +254,7 @@ footer div{
     }
     .formacion div:first-child{
         margin-top: 30px;
+        margin-bottom: 20px;
     }
     .trayectoria{
         flex-direction: column;
@@ -285,6 +287,9 @@ footer div{
     .bio div{
         font-size: 0.63em;
         width: 35%;
+    }
+    .formacion div:first-child{
+        font-size: 0.9em;
     }
     .trayectoria video{
         width: 75%;
@@ -341,7 +346,6 @@ footer div{
     }
     .galeria h2{
         font-size: 1em;
-        margin-top: 10px;
     }
     footer img{
         height: 6vh;
