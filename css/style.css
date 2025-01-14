@@ -392,7 +392,8 @@ footer div{
         padding: 20px;
         background-color: #000000c2;
         transition: top 0.8s;
-        border-radius: 5px; 
+        border-radius: 5px;
+        z-index: 1;
     }
     .desplegado{
         top: 55px;
