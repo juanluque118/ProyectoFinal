@@ -40,7 +40,7 @@ nav ul{
     font-weight: 900;
 }
 li a{
-    color: #B08968;
+    color: #E6D9D1;
 }
 header nav{
     width: 62%;
@@ -222,6 +222,7 @@ footer a:not(:last-child){
 }
 footer a:hover{
     text-shadow: 0 0 30px white;
+    color: #E6D9D1;
 }
 footer h2{
     margin-right: 25px;
