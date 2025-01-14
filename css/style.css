@@ -112,8 +112,8 @@ section{
 .formacion div:first-child{
     background-color: #9b94a2c7;
     border: 1px solid white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 5px black;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px black;
     color: rgb(255, 255, 255);
     margin: 25px;
     padding: 14px;
@@ -345,8 +345,8 @@ footer div{
     .bio div{
         background-color: #9b94a2c7;
         border: 1px solid white;
-        border-radius: 10px;
-        box-shadow: 0 0 10px 5px black;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px black;
         color: rgb(255, 255, 255);
         width: 80%;
         padding: 14px;
