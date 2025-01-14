@@ -18,6 +18,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Playfair300';
+    src: url('../fonts/playfair300/playfair-v2-latin-300.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+  }
+
 /* Normalizar y configuración Body */
 *{
     margin: 0;
@@ -45,6 +52,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.cerrar,
+.abrir{
+    display: none;
 }
 header h1{
     color: black;
@@ -374,6 +385,52 @@ footer div{
     }
 }
 @media screen and (max-width: 500px){
+    nav{
+        position: fixed;
+        top: -100vh;
+        right: 15px;
+        padding: 20px;
+        background-color: #000000c2;
+        transition: top 0.8s;
+        border-radius: 5px; 
+    }
+    .desplegado{
+        top: 55px;
+    }
+    nav li:nth-child(even){
+        text-align: start;
+    }
+    nav ul{
+        display: block;
+        font-family: 'Playfair300';
+        font-weight: 300;
+    }
+    nav li{
+        font-size: 2em;
+    }
+    nav li:not(:first-child){
+        margin-top: 20px;
+    }
+    nav a{
+        color: white;
+    }
+    .cerrar{
+        display: block;
+        position: absolute;
+        right: 20px;
+        border: none;
+        background-color: transparent;
+        color: white;
+        font-size: 1.5em;
+    }
+    .abrir{
+        display: block;
+        width: 30px;
+        border: 2px outset #9E9E9E;
+        background-color: transparent;
+        font-size: 1.1em;
+        border-radius: 5px;
+    }
     .bio div{
         font-size: 0.77em;
     }
@@ -391,14 +448,7 @@ footer div{
     }
 }
 @media screen and (max-width: 400px){
-	header span{
-        margin-left: 23px;
-        font-size: 0.8em;
-    }
-    header h1{
-        line-height: 22px;
-    }
-    .bio div{
+	.bio div{
         font-size: 0.67em;
     }
     .formacion div:first-child{
