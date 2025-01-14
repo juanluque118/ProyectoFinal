@@ -1,9 +1,30 @@
+/* Fuentes */
+@font-face {
+    font-family: 'Lora';
+    src: url('../fonts/lora/lora-v35-latin-500.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Great Vibes';
+    src: url('../fonts/greatvibes/great-vibes-v19-latin-regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../fonts/playfair/playfair-display-v37-latin-900.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* Normalizar y configuración Body */
 *{
     margin: 0;
     padding: 0;
 }
 body{
-	font-family: "Lora", serif;
+	font-family: 'Lora', serif;
     font-weight: 500;
     height: 100vh;
     min-width: 320px;
@@ -16,7 +37,7 @@ header{
     padding: 15px;
     border-bottom: 2px solid #ffffff33;
     background-color: #615e66;
-    font-family: "Great Vibes", serif;
+    font-family: 'Great Vibes', serif;
     font-weight: 400;
     font-style: normal;
     font-size: 1.2em;
@@ -36,11 +57,11 @@ nav ul{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
 }
 li a{
-    color: #B08968;
+    color: #E6D9D1;
 }
 header nav{
     width: 62%;
@@ -207,7 +228,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
-    font-family: "Playfair Display", serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 900;
 }
 footer img{
@@ -222,6 +243,7 @@ footer a:not(:last-child){
 }
 footer a:hover{
     text-shadow: 0 0 30px white;
+    color: #E6D9D1;
 }
 footer h2{
     margin-right: 25px;
