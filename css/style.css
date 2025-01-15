@@ -127,12 +127,9 @@ section{
     color: rgb(255, 255, 255);
     width: 100%;
     padding: 20px 30px;
-    font-size: 0.85em;
-    position: fixed;
-    top: 0;
-    height: 80vh;
+    margin: 0;
+    height: 100%;
     box-sizing: border-box;
-    margin: 10vh 0;
     overflow: auto;
 }
 .formacion h2{
@@ -368,12 +365,9 @@ footer div{
         color: rgb(255, 255, 255);
         width: 100%;
         padding: 20px 30px;
-        font-size: 0.85em;
-        position: fixed;
-        top: 0;
-        height: 80vh;
+        margin: 0;
+        height: 100%;
         box-sizing: border-box;
-        margin: 10vh 0;
     }
     .formacion div:first-child{
         font-size: 0.8em;
