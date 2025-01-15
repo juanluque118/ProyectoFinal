@@ -120,14 +120,11 @@ section{
 .formacion{
     background-image: url("../img/4.jpg");
     background-position-y: -190px;
-    align-items: flex-start;
 }
 .formacion div:first-child{
     background-color: #9b94a2c7;
-    color: rgb(255, 255, 255);
-    width: 100%;
+    color: white;
     padding: 20px 30px;
-    margin: 0;
     height: 100%;
     box-sizing: border-box;
     overflow: auto;
@@ -356,10 +353,7 @@ footer div{
         text-align: end;
         margin-right: 7px;
     }
-    .bio{
-        align-items: flex-end;
-        justify-content: center;
-    }
+    
     .bio div{
         background-color: #9b94a2c7;
         color: rgb(255, 255, 255);
