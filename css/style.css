@@ -139,7 +139,7 @@ section{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .logos img{
     width: 20vw;
