@@ -110,7 +110,7 @@ section{
 .bio div{
     width: 38%;
     padding: 20px;
-    font-size: 0.83em;
+    font-size: 0.95em;
     overflow: auto;
 }
 .bio h2{
@@ -280,7 +280,7 @@ footer div{
         background-position-x: center;
     }
     .bio div{
-        font-size: 0.72em;
+        font-size: 0.8em;
     }
     .formacion{
         background-position-y: 0;
@@ -317,7 +317,7 @@ footer div{
         font-size: 0.9em;
     }
     .bio div{
-        font-size: 0.63em;
+        font-size: 0.7em;
         width: 35%;
     }
     .formacion div:first-child{
