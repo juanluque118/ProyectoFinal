@@ -105,12 +105,13 @@ section{
     background-image: url("../img/cuerpoentero1.JPG");
     justify-content: flex-start;
     align-items: flex-start;
+    overflow: auto; /*Las barras de desplazamiento solo aparecerán cuando sean necesarias*/
 }
 .bio div{
     width: 38%;
     margin: 20px;
     font-size: 0.83em;
-    overflow: auto; /*Las barras de desplazamiento solo aparecerán cuando sean necesarias*/
+    overflow: auto;
 }
 .bio h2{
     margin-bottom: 10px;
