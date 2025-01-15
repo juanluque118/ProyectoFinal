@@ -362,6 +362,7 @@ footer div{
         margin: 0;
         height: 100%;
         box-sizing: border-box;
+        font-size: 0.8em;
     }
     .formacion div:first-child{
         font-size: 0.8em;
@@ -433,9 +434,6 @@ footer div{
         border-radius: 5px;
         color: black;
     }
-    .bio div{
-        font-size: 0.77em;
-    }
     footer h2{
         display: none;
     }
@@ -451,7 +449,7 @@ footer div{
 }
 @media screen and (max-width: 400px){
 	.bio div{
-        font-size: 0.69em;
+        font-size: 0.67em;
     }
     .formacion div:first-child{
         font-size: 0.7em;
