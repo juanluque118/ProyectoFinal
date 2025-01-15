@@ -129,8 +129,9 @@ section{
     position: fixed;
     top: 0;
     height: 80vh;
-    margin-top: 10vh;
     box-sizing: border-box;
+    margin: 10vh 0;
+    overflow: auto;
 }
 .formacion h2{
     margin-bottom: 10px;
@@ -167,7 +168,7 @@ section{
     margin-bottom: 10px;
 }
 .trayectoria ul{
-    margin: 30px 0 30px 30px;
+    margin: 15px 0 15px 15px;
 }
 .trayectoria video{
     width: 35%;
@@ -297,12 +298,12 @@ footer div{
     }
     .trayectoria div{
         font-size: 0.8em;
-        width: 85%;
+        width: 90%;
         background-color: #9b94a2c7;
         border-radius: 10px;
         color: white;
         margin-left: 0;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
     }
     .trayectoria video{
         width: 60%;
@@ -369,8 +370,9 @@ footer div{
         position: fixed;
         top: 0;
         height: 80vh;
-        margin-top: 10vh;
         box-sizing: border-box;
+        margin: 10vh 0;
+        overflow: auto;
     }
     .formacion div:first-child{
         font-size: 0.8em;
