@@ -90,7 +90,7 @@ nav li:not(:last-child){
 /*Secciones*/
 
 section{
-    height: 80vh;
+    height: 80vh; /*Header 10vh, section 80vh y footer 10vh*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +217,7 @@ section{
     display: flex;
 }
 .visible img{
-    max-height: 90vh;
+    max-height: 90vh; /*Para que no desborde en pantallas pequeñas en horizontal*/
     max-width: 70vw;
 }
 .modal button{
@@ -232,7 +232,7 @@ section{
 /* Pie de pagina */
 
 footer{
-    height: 10vh;
+    height: 10vh; /*Header 10vh, section 80vh y footer 10vh*/
     padding: 10px 20px;
     background-color: #000000;
     color: #d7b292;
@@ -273,7 +273,7 @@ footer div{
 
 @media screen and (max-width: 1024px){
     header h1{
-        font-size: 1.3em;
+        font-size: 1.7em;
     }
 	.inicio{
         background-position-y: 0;
