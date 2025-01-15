@@ -457,6 +457,9 @@ footer div{
     .formacion div:first-child{
         font-size: 0.7em;
     }
+    .logos img {
+        width: 30%;
+    }
     .galeria{
         justify-content: flex-start;
     }
