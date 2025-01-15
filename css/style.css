@@ -354,7 +354,9 @@ footer div{
         text-align: end;
         margin-right: 0;
     }
-    
+    nav li:nth-child(odd){
+        margin-right: 0;
+    }
     .bio div{
         background-color: #9b94a2c7;
         color: rgb(255, 255, 255);
