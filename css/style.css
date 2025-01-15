@@ -41,7 +41,7 @@ body{
 /* Header y Navegacion */
 
 header{
-    height: 10vh;
+    height: 10vh; /*Header 10vh, section 80vh y footer 10vh*/
     padding: 15px;
     border-bottom: 2px solid #ffffff33;
     background-color: #615e66;
@@ -99,16 +99,17 @@ section{
 }
 .inicio{
     background-image: url("../img/2.jpg");
-    background-position-y: -240px ;
+    background-position-y: -240px;
 }
 .bio{
     background-image: url("../img/cuerpoentero1.JPG");
     justify-content: flex-start;
     align-items: flex-start;
+    background-position-x: center;
 }
 .bio div{
     width: 38%;
-    margin: 20px;
+    padding: 20px;
     font-size: 0.83em;
     overflow: auto;
 }
@@ -360,7 +361,6 @@ footer div{
         color: rgb(255, 255, 255);
         width: 100%;
         padding: 20px 30px;
-        margin: 0;
         height: 100%;
         box-sizing: border-box;
         font-size: 0.8em;
