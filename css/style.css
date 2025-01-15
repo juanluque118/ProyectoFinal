@@ -459,7 +459,7 @@ footer div{
 }
 @media screen and (max-width: 400px){
 	.bio div{
-        font-size: 0.67em;
+        font-size: 0.69em;
     }
     .formacion div:first-child{
         font-size: 0.7em;
