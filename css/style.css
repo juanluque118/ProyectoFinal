@@ -96,6 +96,7 @@ section{
     justify-content: center;
     align-items: center;
     background-size: cover;
+    overflow: auto; /*Las barras de desplazamiento solo aparecerán cuando sean necesarias*/
 }
 .inicio{
     background-image: url("../img/2.jpg");
@@ -105,7 +106,7 @@ section{
     background-image: url("../img/cuerpoentero1.JPG");
     justify-content: flex-start;
     align-items: flex-start;
-    overflow: auto; /*Las barras de desplazamiento solo aparecerán cuando sean necesarias*/
+    
 }
 .bio div{
     width: 38%;
@@ -156,7 +157,6 @@ section{
     justify-content: flex-start;
     align-items: flex-start;
     position: relative;
-    overflow: auto;
 }
 .trayectoria div{
     width: 27%;
@@ -185,7 +185,6 @@ section{
     background-position-x: center;
     background-position-y: -400px;
     flex-direction: column;
-    overflow: auto;
 }
 .galeria h2{
     background-color: #615e66;
