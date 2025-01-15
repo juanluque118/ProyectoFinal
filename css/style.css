@@ -352,7 +352,7 @@ footer div{
     }
     nav li:nth-child(even){
         text-align: end;
-        margin-right: 7px;
+        margin-right: 0;
     }
     
     .bio div{
