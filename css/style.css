@@ -203,6 +203,9 @@ section{
     width: 100%;
     max-width: 200px;
 }
+.fotos a:hover{
+    box-shadow: 0 0 30px 30px white;
+}
 .modal{
     position: fixed;
     width: 100%;
