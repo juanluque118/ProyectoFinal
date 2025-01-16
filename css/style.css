@@ -51,7 +51,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+} 
+/*Los botones de abrir y cerrar el menu desplegable solo aparecerán en pantallas max-width 500px*/
 .cerrar,
 .abrir{
     display: none;
@@ -420,6 +421,10 @@ footer div{
     }
     nav a{
         color: white;
+    }
+    nav a:hover{
+        color: #d7b292;
+        text-shadow: 0 0 30px white;
     }
     .cerrar{
         display: block;
