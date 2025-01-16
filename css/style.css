@@ -150,7 +150,7 @@ section{
     background-position-y: -100px;
     justify-content: flex-start;
     align-items: flex-start;
-    position: relative;
+    position: relative; /*Para poner el video en absolute y colocarlo donde quiero*/
 }
 .trayectoria div{
     width: 27%;
@@ -218,7 +218,7 @@ section{
     display: flex;
 }
 .visible img{
-    max-height: 90vh; /*Para que no desborde en pantallas pequeñas en horizontal*/
+    max-height: 90vh; /*Para que no desborde en moviles en horizontal*/
     max-width: 70vw;
 }
 .modal button{
